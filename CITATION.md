@@ -1,11 +1,12 @@
 If you make use of the Wind Turbine 7 data, please cite the following reference:
 
-``` bibtex 
-@misc{Wind Turbine 7,
-	author="TO BE FILLED MANUALLY!",
-	title="YOLO Annotated Wind Turbine Surface Damage",
-	year={2018},
-	url="https://www.kaggle.com/datasets/ajifoster3/yolo-annotated-wind-turbines-586x371"
+```bibtex
+@misc{SHIHAVUDDIN,
+    ASM; Chen, Xiao (2018),
+    “DTU - Drone inspection images of wind turbine”,
+    Mendeley Data,
+    V2,
+    doi: 10.17632/hd96prn3nc.2
 }
 ```
 
