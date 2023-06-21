@@ -5,14 +5,14 @@
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid"]
 # * If None, then preview_class will be set automatically to "ClassesPreview"
-PREVIEW_CLASS = "HorizontalGrid"
+PREVIEW_CLASS = "Poster"
 
 IS_DETECTION_TASK: bool = True  # ? Set True if you want to visualize only bbox annotations
 
 ###############################################################
 ####### * Set up visualization params for Poster class ########
 POSTER_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
-POSTER_TITLE: str = None
+POSTER_TITLE: str = "YOLO Annotated Wind Turbine Surface Damage"
 ###############################################################
 
 
@@ -47,9 +47,9 @@ PREVIEWS_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
 
 ###############################################################
 ### * Set up visualization params for ClassesPreview class ####
-CLASSES_PREVIEW_ROW_HEIGHT: int = None
+CLASSES_PREVIEW_ROW_HEIGHT: int = 350
 CLASSES_PREVIEW_PADDINGS: dict = {"top": "100px", "bottom": "100px", "left": "100px", "right": "100px"}
-CLASSES_PREVIEW_ROWS: int = None
+CLASSES_PREVIEW_ROWS: int = 1
 CLASSES_PREVIEW_GAP: int = 10
 # default {"top": "10%", "bottom": "10%", "left": "10%", "right": "10%"}
 # set % or px as string values (e.i. "10%" or "10px")
