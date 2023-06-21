@@ -57,7 +57,7 @@ def convert_and_upload_supervisely_project(
 
         return sly.Annotation(img_size=(img_height, img_wight), labels=labels)
 
-    remote_path = "/4import/YOLO Annotated Wind Turbine Surface Damage/test-archive.zip"
+    remote_path = "/4import/YOLO Annotated Wind Turbine Surface Damage/archive.zip"
     local_path = os.path.join(sly.app.get_data_dir(), "archive.zip")
     file_info = api.file.get_info_by_path(sly.env.team_id(), remote_path)
     download_progress = tqdm(desc="Download dataset", total=file_info.sizeb)
