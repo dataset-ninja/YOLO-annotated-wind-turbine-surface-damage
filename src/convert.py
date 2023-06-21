@@ -65,8 +65,11 @@ def convert_and_upload_supervisely_project(
         sly.env.team_id(), remote_path, local_path, progress_cb=download_progress.update
     )
 
+    sly.logger.info(f"local_path: {local_path}")
     local_path = unpack_if_archive(local_path)
+    sly.logger.info(f"local_path: {local_path}")
     local_path = os.path.join(local_path, "NordTank586x371")
+    sly.logger.info(f"local_path: {local_path}")
     project = api.project.create(workspace_id, project_name)
     dirt_obj_class = sly.ObjClass("dirt", sly.Rectangle)
     damage_obj_class = sly.ObjClass("damage", sly.Rectangle)
