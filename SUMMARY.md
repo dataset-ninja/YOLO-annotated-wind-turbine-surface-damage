@@ -3,7 +3,3 @@
 The dataset consists of 13470 images with 9351 labeled objects belonging to 2 different classes including *damage* and *dirt*.
 
 Each image in the Wind Turbine 7 dataset has bounding box annotations. There are 10475 (78% of the total) unlabeled images (i.e. without annotations). There is 1 split in the dataset: *train* (13470 images). The dataset was released in 2018.
-
-Here is the visualized example grid with annotations:
-
-<img src="https://github.com/dataset-ninja/YOLO-annotated-wind-turbine-surface-damage/raw/main/visualizations/horizontal_grid.png">
