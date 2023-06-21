@@ -74,7 +74,6 @@ def convert_and_upload_supervisely_project(
     api.project.update_meta(project.id, meta.to_json())
 
     dataset_train = api.dataset.create(project.id, "train")
-    dataset_val = api.dataset.create(project.id, "val")
 
     images_dir = os.path.join(local_path, images_dirname)
     anns_dir = os.path.join(local_path, anns_dirname)
