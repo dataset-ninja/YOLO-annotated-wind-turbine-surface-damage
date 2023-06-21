@@ -1,7 +1,10 @@
 If you make use of the Wind Turbine 7 data, please cite the following reference:
 
 ```bibtex
-@misc{SHIHAVUDDIN,
+@misc{
+    Foster, Ashley; Best, Oscar; Gianni, Mario; Khan, Asiya; Collins, Kerry; Sharma, Sanjay (2022),
+    "Drone Footage Wind Turbine Surface Damage Detection",
+    SHIHAVUDDIN,
     ASM; Chen, Xiao (2018),
     “DTU - Drone inspection images of wind turbine”,
     Mendeley Data,
