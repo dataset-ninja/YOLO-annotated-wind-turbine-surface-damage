@@ -20,7 +20,7 @@ RELEASE_YEAR: int = 2018
 HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/ajifoster3/yolo-annotated-wind-turbines-586x371"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 673786
+PREVIEW_IMAGE_ID: int = 682750
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/YOLO-annotated-wind-turbine-surface-damage"
