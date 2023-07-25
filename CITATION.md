@@ -1,15 +1,11 @@
-If you make use of the Wind Turbine 7 data, please cite the following reference:
+If you make use of the Wind Turbine Surface Damage data, please cite the following reference:
 
-```bibtex
-@misc{
-    Foster, Ashley; Best, Oscar; Gianni, Mario; Khan, Asiya; Collins, Kerry; Sharma, Sanjay (2022),
-    "Drone Footage Wind Turbine Surface Damage Detection",
-    SHIHAVUDDIN,
-    ASM; Chen, Xiao (2018),
-    “DTU - Drone inspection images of wind turbine”,
-    Mendeley Data,
-    V2,
-    doi: 10.17632/hd96prn3nc.2
+``` bibtex 
+@dataset{Wind Turbine Surface Damage,
+	author={Foster, Ashley and Best, Oscar and Gianni, Mario and Khan, Asiya and Collins, Kerry and Sharma, Sanjay and SHIHAVUDDIN, ASM and Chen, Xiao},
+	title={YOLO Annotated Wind Turbine Surface Damage},
+	year={2022},
+	url={https://www.kaggle.com/datasets/ajifoster3/yolo-annotated-wind-turbines-586x371}
 }
 ```
 
