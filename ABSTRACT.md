@@ -1,0 +1,3 @@
+A **YOLO Annotated Wind Turbine Surface Damage** is a dataset of wind turbine surface damage composed of images from [DTU - Drone inspection images of wind turbine](https://data.mendeley.com/datasets/hd96prn3nc/2) dataset, split into 586x371 pixel images with YOLO format annotations for Dirt and Damage. The dataset consists of 13000 images, just under 3000 of which have instances of one of the two classes.
+
+An original DTU dataset consists of temporal inspection images for the years of 2017 and 2018 of the same 'Nordtank' wind turbine at DTU wind facilities in Roskilde, Denmark.

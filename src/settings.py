@@ -13,16 +13,15 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Wind Turbine Surface Damage"
+PROJECT_NAME: str = "YOLO Annotated Wind Turbine Surface Damage"
 PROJECT_NAME_FULL: str = "YOLO Annotated Wind Turbine Surface Damage"
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_4_0()
-INDUSTRIES: List[Industry] = [Industry.Energy()]
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Energy()]
-CATEGORY: Category = Category.EnergyAndUtilities()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Energy(), Domain.DroneInspection()]
+CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.Drones(), is_original_dataset=False)
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
