@@ -1,6 +1,6 @@
 Dataset **YOLO Annotated Wind Turbine Surface Damage** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/l/V/wf/eQVfjRRAH2zS8MIoDGhENvdl2f7vjkmsp1uSxT18JNcXWQR8HT6Nr9fxSlybTeUM90m36dMaN8UWMm2QuwFMpQDUngM7uGH8p3S9In9dgrrGQSDgqyiiycGXFMAf.tar)
+ [Download](https://www.dropbox.com/scl/fi/yptvhwumvi194eub0c0rl/yolo-annotated-wind-turbine-surface-damage-DatasetNinja.tar?rlkey=i35kuz97wgih467a10kl5tcgs&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
